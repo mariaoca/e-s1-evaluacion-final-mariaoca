@@ -1,12 +1,9 @@
 
 .btn {
+  position: fixed;
   width: 44px;
   height: 44px;
-  background-color: #0271bc;
+  background: url(/public/assets/images/ico-menu.svg) center no-repeat #0271bc;
+  
 }
-.ico_menu{
-    width: 16px;
-    height: 14px;
-    object-fit: contain;
-    background-color: var(--white);
-}
+ 

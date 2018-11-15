@@ -7,6 +7,7 @@
 .insomnia {
     width: 90px;
     height: 30px;
+    margin: 15px 30px 215px 316px;
 }
 
 .insomnia_text { 
@@ -21,7 +22,9 @@
 }
 .looking {
     width: 290px;
-  height: 60px;
+    height: 60px;
+    margin:15px;
+
 
 }
 .looking_title {
@@ -37,6 +40,7 @@
 .done {
 width: 290px;
 height: 120px;
+margin: 136px 15px 120px;
 }
 .done_accumsan {
     font-family: Roboto;
@@ -67,4 +71,61 @@ height: 120px;
     text-align: center;
     color: #f26002;
 }
+.reasons{
+  width: 290px;
+  height: 30px;
+}
+.reasons_title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.ut_sed {
+  width: 184px;
+  height: 30px;
+  
+}
+.utsed_title{
+  font-family:'Roboto Slab' ;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black)
+}
+.utsed_text{
+    width: 180px;
+    height: 63px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+}
+.btn_reasons {
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: #f26002;
+}
+
+
+
+
+
+
+  
 
