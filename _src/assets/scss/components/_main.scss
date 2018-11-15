@@ -1,0 +1,70 @@
+.block_one{
+    width: 320px;
+    height: 376px;
+    background-color: var(--white);
+}
+
+.insomnia {
+    width: 90px;
+    height: 30px;
+}
+
+.insomnia_text { 
+    font-family: 'Roboto Regular', serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: #8ccbea;
+}
+.looking {
+    width: 290px;
+  height: 60px;
+
+}
+.looking_title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--black);
+}
+.done {
+width: 290px;
+height: 120px;
+}
+.done_accumsan {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: var(--greyish-brown);
+  }
+.go{
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+}
+.btn_go {
+    width: 25px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f26002;
+}
+
