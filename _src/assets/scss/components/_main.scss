@@ -33,14 +33,9 @@ a {
   display:flex;
   justify-content: center;
   align-items: center;
-  transition: transform ease 0.5s;
-  &:hover{
-    transform: scale(2);
-    transition-delay: 1.15s;
-  }
 
- 
-}
+ }
+
 
 .main_second{
 
@@ -83,7 +78,10 @@ a {
     border-radius: 22.5px;
     background-color: #f26002;
     margin-bottom: 60px;
-    
+    transition-delay: 0.2s;
+    &:hover{
+      transform: scale(1.1);
+    }
   }
   .btn_span{
     width: 124px;
