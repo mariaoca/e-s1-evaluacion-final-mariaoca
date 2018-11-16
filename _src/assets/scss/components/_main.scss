@@ -1,4 +1,4 @@
-.main {
+.page {
   margin: 15px;
 }
 
@@ -34,6 +34,7 @@ a {
   display:flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
 
  }
 
@@ -59,10 +60,12 @@ a {
     text-align: center;
     color:$colorblack;
   }
-  
-  .list_reasons li {
+  .list_reasons{
     margin:0px;
     padding:0px;
+  }
+  
+  .list_reasons li {
     padding-inline-start: 0;
     font-family: 'Roboto Slab', serif;
     list-style: none;
