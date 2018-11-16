@@ -98,22 +98,58 @@ a {
   }
   
 
-@media all and (min-width: 768px) and (max-width: 1200px){
+@media all and (min-width: 768px) and (max-width: 1280px){
 .list_reasons {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.hero_title{
+  width: 730px;
+  height: 264px;
+  font-size: 80px;
+  line-height: 106px;
+  text-align: center;
 }
-@media all and (min-width: 1200px){
+.hero_text{
+  font-size: 24px;
+}
+.done_accumsan{
+  font-size: 20px;
+}
+.go {
+  width: 91px;
+  height: 45px;
+}
+.btn_reasons{
+  width: 210px;
+  height: 45px;
+}
+
+}
+@media all and (min-width: 1280px){
   .list_reasons{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 55px;
 
   }
+  .hero_title{
+    width: 730px;
+    height: 264px;
+    font-size: 100px;
+    line-height: 132px;
+    text-align: center;
+  }
   .go {
     width: 160px;
     height: 45px;
+  }
+  .btn_reasons{
+    width: 255px;
+    height: 45px;
+  }
+  .hero_text{
+    font-size: 24px;
   }
  
   
