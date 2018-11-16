@@ -22,23 +22,26 @@
 }
 a {
   text-decoration: none;
-  color:#f26002;
+  color: #f26002;
 }
 
 .go {
   border-radius: 22.5px;
-  border: solid 2px #f26002;
+  border: solid 2px  #f26002;
   width: 76px;
   height: 45px;
   display:flex;
   justify-content: center;
   align-items: center;
+  transition: transform ease 0.5s;
+  &:hover{
+    transform: scale(2);
+    transition-delay: 1.15s;
+  }
+
+ 
 }
-// @media all (min-width: 768px) and (max-width: 1200px)
-// .list_reasons {
-//   display: grid;
-//   grid-template-columns: 55px 1fr 55px;
-// }
+
 .main_second{
 
     background-color: #eff9ff;
@@ -59,17 +62,19 @@ a {
     line-height: 1.25;
     letter-spacing: normal;
     text-align: center;
-    color:#000000;
+    color:$colorblack;
   }
   
   .list_reasons li {
     margin:0px;
     padding:0px;
+    padding-inline-start: 0;
     font-family: 'Roboto Slab', serif;
     list-style: none;
     text-align: center;
     width: 180px;
     margin-bottom: 45px;
+    text-align: center;
     
   }
   .btn_reasons{
@@ -91,7 +96,7 @@ a {
     line-height: 2.25;
     letter-spacing: normal;
     text-align: center;
-    color:#ffffff;
+    color: $colorwhite;
   }
   
 
