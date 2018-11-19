@@ -6,9 +6,9 @@
     justify-content: center;
     align-items: center;
     height: 128px;
-    background-color:$colorBGfooter;
+    background-color:$colorwhite;
     line-height: 30px;
-    color:$colorwhite;
+    color:$colorblack;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -40,5 +40,16 @@
 .heart{
     text-align: center;
     color: #f26002;
+}
+ @media all and (min-width: 768px){
+    .footer_content{
+        background: $colornewfooter;
+    }
+    .footer_content{
+        display:flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        padding-left:30px;
+    }
 }
 
